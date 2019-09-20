@@ -8,7 +8,7 @@ import (
 func main() {
 
 	pin.D("Hello!")
-	pfcutil_spawn.Build()
+	util_spawn.Build()
 	pin.D("PFCD build done!")
 
 }

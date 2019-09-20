@@ -8,7 +8,7 @@ import (
 )
 
 func FixSecp256k1Checksum(targetProject string) {
-	invalidParent := filepath.Join(targetProject, "pfcec")
+	invalidParent := filepath.Join(targetProject, "btcec")
 	invalid := filepath.Join(invalidParent, "secp256k1.go")
 	fileops.Delete(invalid)
 

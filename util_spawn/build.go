@@ -1,4 +1,4 @@
-package pfcutil_spawn
+package util_spawn
 
 import (
 	"github.com/jfixby/pin"
@@ -23,7 +23,7 @@ func Build() {
 
 	set := &Settings{
 		PathToBtcsuiteBTCDRepo: `D:\PICFIGHT\src\github.com\btcsuite\btcutil`,
-		PathToPicfightPFCDRepo: `D:\PICFIGHT\src\github.com\picfight\pfcutil`,
+		PathToPicfightPFCDRepo: `D:\PICFIGHT\src\github.com\btcziggurat\btcutil`,
 		DoNotProcessAnyFiles:   false,
 		FileNameProcessor:      proc.PicfightCoinFileNameGenerator,
 		IsFileProcessable:      proc.ProcessableFiles,

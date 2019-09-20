@@ -47,7 +47,7 @@ func Build() {
 
 	injector.PerformInjections(set.PathToPicfightPFCDRepo, filepath.Join("", "code_injections", "d"))
 
-	FixSecp256k1Checksum(set.PathToPicfightPFCDRepo)
+	//FixSecp256k1Checksum(set.PathToPicfightPFCDRepo)
 
 	projectops.AppendGitIgnore(set.PathToPicfightPFCDRepo)
 

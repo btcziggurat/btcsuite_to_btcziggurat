@@ -1,2 +1,0 @@
-	// First take the HMAC-SHA512 of the master key and the seed data:
-	//   I = HMAC-SHA512(Key = "Bitcoin seed", Data = S)
